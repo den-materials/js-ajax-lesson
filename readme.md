@@ -8,6 +8,7 @@ creator:
 competencies: Front-end intro
 --->
 
+<!--WDI4 11:30 -->
 <!--Actually 11:20 -->
 <!--11:00 15 minutes -->
 
@@ -60,6 +61,7 @@ As you're learning how to build APIs on the server side, you need to start learn
 While we're going to be tackling some advanced front-end frameworks in the next unit, you, as a junior full-stack developer, need to be able to do something awesome with the APIs you're learning to make. So we're going to tackle the basics and build on them even further, later.
 
 <!--11:29 -->
+<!--11:41 WDI4-->
 <!--11:15 5 minutes -->
 
 ## Setup - Codealong
@@ -81,6 +83,7 @@ Now, we've set a few things up for you. Besides the beautiful layout, we have a 
 We've also already included jQuery, though we won't use that for the first few minutes.
 
 <!--Actually 11:35 -->
+<!--WDI4 11:48 -->
 <!--11:20 10 minutes -->
 
 ## GET Requests - Code Along
@@ -176,6 +179,8 @@ In jQuery's documentation you can find all the chain-able callback function poss
 
 <!--11:57 when started explaining/modeling-->
 <!--12:04 when finished explaining -->
+<!--12:08 WDI4 turning over to devs -->
+
 <!--11:45 30 minutes -->
 
 ## Independent Practice
@@ -191,6 +196,8 @@ Now, using your console, I want to you to try a few more API tasks on this endpo
     - Hint: What verb would we use to `Create` something?
 
 \* First try this with Postman, then check the documentation on these verbs for jQuery.  In order to send data you will need to do two things.  First, you will need to create an object (using JSON).  Second, you will need to convert it to a string.
+
+<!--WDI4 12:30 still need to do conclusion and go over soln -->
 
 <!--Actually 12:26 -->
 <!--12:15 10 minutes -->
