@@ -195,7 +195,7 @@ Now, using your console, I want to you to try a few more API tasks on this endpo
 - Add a new cat to the list with a name and a note\*
     - Hint: What verb would we use to `Create` something?
 
-\* First try this with Postman, then check the documentation on these verbs for jQuery.  In order to send data you will need to do two things.  First, you will need to create an object (using JSON).  Second, you will need to convert it to a string.
+\* First try this with Postman, then check the documentation on these verbs for jQuery.  In order to send data you will need to do two things.  First, you will need to create an object in Javascript.  Second, you will need to convert it to a string using a JSON function.
 
 <!--WDI4 12:30 still need to do conclusion and go over soln -->
 
