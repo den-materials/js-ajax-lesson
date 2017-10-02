@@ -7,7 +7,7 @@ creator:
     city: LA
 competencies: Front-end intro
 --->
-
+<!--WDI5 11:01 -->
 <!--WDI4 11:30 -->
 <!--Actually 11:20 -->
 <!--11:00 15 minutes -->
@@ -82,6 +82,7 @@ Now, we've set a few things up for you. Besides the beautiful layout, we have a 
 
 We've also already included jQuery, though we won't use that for the first few minutes.
 
+<!--WDI5 11:20 -->
 <!--Actually 11:35 -->
 <!--WDI4 11:48 -->
 <!--11:20 10 minutes -->
@@ -130,6 +131,7 @@ Finally, we send our request and see what happens. In this instance, we get back
 <!--Half-mast for this piece -->
 
 <!--11:47 -->
+<!--11:34 WDI5-->
 <!--11:30 15 minutes -->
 
 #### jQuery GET Requests
@@ -180,6 +182,7 @@ In jQuery's documentation you can find all the chain-able callback function poss
 <!--11:57 when started explaining/modeling-->
 <!--12:04 when finished explaining -->
 <!--12:08 WDI4 turning over to devs -->
+<!--11:43 WDI5 -->
 
 <!--11:45 30 minutes -->
 
@@ -199,6 +202,7 @@ Now, using your console, I want to you to try a few more API tasks on this endpo
 
 <!--WDI4 12:30 still need to do conclusion and go over soln -->
 
+<!--WDI5 12:15 -->
 <!--Actually 12:26 -->
 <!--12:15 10 minutes -->
 ## Conclusion (5 mins)
@@ -210,7 +214,7 @@ Now, using your console, I want to you to try a few more API tasks on this endpo
 <!--Ended 12:33, only had time to mention articles -->
 <!--12:25 5 minutes -->
 
-<!--Give students a few minutes to read the first article below, then pair-share...finally, alert them about the high frequency of the error in the second article, and that the third article is a way to solve it using tools we will learn next week-->
+<!--Give students a few minutes to read the first article below, then pair-share...finally, alert them about the high frequency of the error in the second article, and that the third article is a way to solve it using tools we will learn later-->
 
 #### Extra Reading
 - [What is Cross Origin Resource Sharing (CORS)?](https://www.maxcdn.com/one/visual-glossary/cors/)
