@@ -220,3 +220,5 @@ Now, using your console, I want to you to try a few more API tasks on this endpo
 - [What is Cross Origin Resource Sharing (CORS)?](https://www.maxcdn.com/one/visual-glossary/cors/)
 - [`No 'Access-Control-Allow-Origin' header is present on the requested resource` – WTF?](https://jvaneyck.wordpress.com/2014/01/07/cross-domain-requests-in-javascript/)
 - [Using CORS with Express](http://enable-cors.org/server_expressjs.html)
+
+<!--WDI5 12:26 -->
