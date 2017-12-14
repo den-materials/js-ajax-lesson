@@ -73,7 +73,7 @@ In the starter-code folder, we've got a super basic index and a CSS file to get 
 
 Open up your `index.html` in a browser, and you'll see:
 
-<img width="752" src="assets/bookRescue.png">
+<img width="752" src="assets/booktastic.png">
 
 Make sure to open your console - we're going to be working with it quite a bit.
 
