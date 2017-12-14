@@ -153,7 +153,7 @@ console.log(ajax); -->
 
 <img width="633" src="assets/ajaxResponse.png">
 
-That's some awesome info. What's this `responseText`? Looks useful:
+That's some awesome info. What's this `responseJSON`? Looks useful:
 
 ```js
   ajax.responseJSON
