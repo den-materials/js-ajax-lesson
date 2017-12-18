@@ -10,6 +10,7 @@ competencies: Front-end intro
 <!--WDI5 11:01 -->
 <!--WDI4 11:30 -->
 <!--Actually 11:20 -->
+<!--WDI6 11:22 -->
 <!--11:00 15 minutes -->
 
 <!--Hook: So now we know how to communibooke with an API using Postman.  However, we have all these awesome tools with Javascript that we could use to manipulate, save, and display this data.  It's too bad there's no way for Javascript to interact with web APIs... *psyche!*  The way to do that is called AJAX, and we're going to talk about it today.  -->
@@ -32,7 +33,7 @@ competencies: Front-end intro
 
 ## What is AJAX? An Introduction
 
-AJAX (Asynchronous JavaScript and XML) is a method of building interactive applibookions for the Web that processes user requests immediately, without re-rendering a whole page.
+AJAX (Asynchronous JavaScript and XML) is a method of building interactive applications for the Web that processes user requests immediately, without re-rendering a whole page.
 
 > **Example:** A weather forecasting site could display local conditions on one side of the page as soon as a user finishes typing in a zip code. The temperature could also refresh every minute, without the user having to hit a refresh button.
 
@@ -42,9 +43,9 @@ In general the process looks like this – use JavaScript on the client side to 
 
 - __Faster__ - This is the most obvious reason for using AJAX on your front-end: AJAX allows easier and quicker interaction between user and website as pages are not reloaded for content to be displayed.  The server doesn't have to get data, render HTML, and then spit it out, it just has to get data and your already-loaded front-end does the rest.
 
-- __Compact__ - With AJAX, several applibookion features can be handled using a single web page. That means we modularize our app into smaller bits, and it becomes easier to work on.
+- __Compact__ - With AJAX, several application features can be handled using a single web page. That means we modularize our app into smaller bits, and it becomes easier to work on.
 
-- __Back-end Separated from Front-end__ - Applibookions that use AJAX-heavy front-ends allow developers to avoid working on both sides of the stack at the same time. Some developers can be dedibooked to building an API that just serves data, and others can focus on consuming that data and building interfaces.
+- __Back-end Separated from Front-end__ - Applications that use AJAX-heavy front-ends allow developers to avoid working on both sides of the stack at the same time. Some developers can be dedicated to building an API that just serves data, and others can focus on consuming that data and building interfaces.
 
 ### Disadvantages
 
@@ -61,6 +62,7 @@ While we're going to be tackling some advanced front-end frameworks in the next 
 
 <!--11:29 -->
 <!--11:41 WDI4-->
+<!--WDI6 11:31 -->
 <!--11:15 5 minutes -->
 
 ## Setup - Codealong
@@ -83,6 +85,7 @@ We've also already included jQuery, though we won't use that for the first few m
 
 <!--WDI5 11:20 -->
 <!--Actually 11:35 -->
+<!--WDI6 11:36 -->
 <!--WDI4 11:48 -->
 <!--11:20 10 minutes -->
 
@@ -96,7 +99,7 @@ Open up your browser and the console. We're gonna start with old-school JavaScri
 
 ```js
   var request = new XMLHttpRequest();
-  request.open('GET', 'https://super-crud.herokuapp.com/books', true);
+  request.open('GET', 'https://den-super-crud.herokuapp.com/books', true);
 
   request.onload = function() {
     if (request.status >= 200 && request.status < 400) {
@@ -142,7 +145,7 @@ Since we've already included jQuery in our HTML's head, let's try doing the same
 If you hit `cmd+k` in your browser console, it'll clear it to start fresh.
 
 ```js
-  var ajax = $.get('https://super-crud.herokuapp.com/books');
+  var ajax = $.get('https://den-super-crud.herokuapp.com/books');
 ```
 
 Let's look at what our `ajax` variable holds now.
@@ -168,7 +171,7 @@ What did this do? Without refreshing the page, we hit an external API – a tot
 While that's great, it's dangerously asynchronous. How do we build this so that it `console.log`'s the response when an AJAX request actually succeeds, instead of right after it runs in the console?
 
 ```js
-  var ajax = $.get('https://super-crud.herokuapp.com/books')
+  var ajax = $.get('https://den-super-crud.herokuapp.com/books')
     .done(function(data){
       console.log(data);
     });
