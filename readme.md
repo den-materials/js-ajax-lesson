@@ -51,9 +51,9 @@ In general the process looks like this – use JavaScript on the client side to 
 
 - __The back and refresh button are rendered useless__ - Since things are loaded dynamically on a page, without that page reloading (or more importantly a URL being changed), clicking the back or refresh button won't work the way you're used to. That's actually a pretty big deal – UX designers are very familiar with the fact that users are _accustomed_ to being able to hit back when they need to. Some advanced front-end frameworks have tried to solve this issue with clever workarounds, but that's not always clean and not always accurate.
 
-- __Javascript can be disabled__ - While Javascript is secure and has been heavily used by websites for a long period of time, a percentage of website surfers prefer to turn Javascript functionality off on their browser, rendering the AJAX applibookion totally useless. That's not always the best thing to design for, and more often than not, you'll find yourself assuming users have JS on, but it's important to know your whole site could be useless in some situations.
+- __Javascript can be disabled__ - While Javascript is secure and has been heavily used by websites for a long period of time, a percentage of website surfers prefer to turn Javascript functionality off on their browser, rendering the AJAX application totally useless. That's not always the best thing to design for, and more often than not, you'll find yourself assuming users have JS on, but it's important to know your whole site could be useless in some situations.
 
-- __You have to consider the UX even more__ - While UX is crucial for _any_ applibookion, the fact that a page doesn't refresh means you have to be even more considerate of what a user is experiencing. If something in your Javascript goes wrong, your AJAX breaks, and you don't have failsafes thoughtfully built in, your user might be clicking a button and seeing absolutely nothing happen. Most common users won't have their consoles open to notice any errors.
+- __You have to consider the UX even more__ - While UX is crucial for _any_ application, the fact that a page doesn't refresh means you have to be even more considerate of what a user is experiencing. If something in your Javascript goes wrong, your AJAX breaks, and you don't have failsafes thoughtfully built in, your user might be clicking a button and seeing absolutely nothing happen. Most common users won't have their consoles open to notice any errors.
 
 ### Why are we learning it?
 As you're learning how to build APIs on the server side, you need to start learning how to consume your APIs on the client side.
@@ -69,7 +69,7 @@ While we're going to be tackling some advanced front-end frameworks in the next 
 
 While we're still learning the ins-and-outs of building APIs, let's use an already-made API for today. We'll use one built with Mongo and Express (coming soon!) and it comes with RESTful resources out of the box.
 
-This handy thing lives at https://super-crud.herokuapp.com/books – it's a simple dummy data service that'll let us do GETs & POSTs quickly.
+This handy thing lives at https://den-super-crud.herokuapp.com/books – it's a simple dummy data service that'll let us do GETs & POSTs quickly.
 
 In the starter-code folder, we've got a super basic index and a CSS file to get started. Nothing fancy.
 
@@ -186,6 +186,7 @@ In jQuery's documentation you can find all the chain-able callback function poss
 <!--12:08 WDI4 turning over to devs -->
 <!--11:43 WDI5 -->
 
+<!--Turning over to devs 11:56 -->
 <!--11:45 30 minutes -->
 
 ## Independent Practice
@@ -195,9 +196,9 @@ Now, using your console, I want to you to try a few more API tasks on this endpo
 - Get a single book and spit out the JSON collection in the console
     - Hint: What might we add to the URL to get a `Show` route for a specific `id`?
 - Use the more generic [$.ajax](http://api.jquery.com/jquery.ajax/) to do the same request
-- Add a new book to the list with a name and a note\*
+- Add a new book to the list with a title, author, image, and release date\*
     - Hint: What verb would we use to `Create` something?
-- Modify that book by changing its name\*
+- Modify that book by changing its title\*
     - Hint: What verb would we use to `Update` something?
 - Finally, delete the book you just made.
 
@@ -207,6 +208,7 @@ Now, using your console, I want to you to try a few more API tasks on this endpo
 
 <!--WDI5 12:15 -->
 <!--Actually 12:26 -->
+<!--WDI6 end at 12:20ish for lunch and learn, but did these questions before lab (after lunch) -->
 <!--12:15 10 minutes -->
 ## Conclusion (5 mins)
 - What's the main use case of AJAX? Why would anyone use it?
